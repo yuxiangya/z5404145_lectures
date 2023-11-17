@@ -115,7 +115,7 @@ ser = pd.Series(data=prices, index=dates)
 #print(ser) 
 
 # This will return 7.04
-x  = '?'
+x  = ser[1000]
 #print(x) 
 
 # Compare the following cases:
